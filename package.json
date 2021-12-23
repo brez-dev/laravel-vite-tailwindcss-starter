@@ -6,15 +6,20 @@
         "serve": "vite preview"
     },
     "devDependencies": {
-        "axios": "^0.21",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^2.6.0",
-        "laravel-vite": "^0.0.19",
+        "@types/tailwindcss": "^2.2.4",
+        "@vitejs/plugin-vue": "^1.9.2",
         "@vue/compiler-sfc": "^3.2.19",
-        "@vitejs/plugin-vue": "^1.9.2"
+        "autoprefixer": "^10.4.0",
+        "axios": "^0.21",
+        "laravel-vite": "^0.0.23",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.7",
+        "vite": "^2.7.6"
     },
     "dependencies": {
-        "vue": "^3.2.6"
+        "vue": "^3.2.6",
+        "vue-router": "^4.0.12",
+        "vuex": "^4.0.2"
     }
-  }
+}

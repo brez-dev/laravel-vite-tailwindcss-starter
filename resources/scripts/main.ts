@@ -1,15 +1,6 @@
-/*
-|--------------------------------------------------------------------------
-| Main entry point
-|--------------------------------------------------------------------------
-| Files in the "resources/scripts" directory are considered entrypoints
-| by default.
-|
-| -> https://vitejs.dev
-| -> https://github.com/innocenzi/laravel-vite
-*/
-
 import { createApp } from 'vue'
 import App from '@/App.vue'
+import router from '@/router'
+import store from '@/store'
 
-createApp(App).mount('#app')
+createApp(App).use(store).use(router).mount('#app')
